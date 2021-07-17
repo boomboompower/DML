@@ -12,6 +12,7 @@ import wolfshotz.dml.client.render.DragonRenderer;
 import wolfshotz.dml.client.render.EggRenderer;
 import wolfshotz.dml.entities.TameableDragonEntity;
 import wolfshotz.dml.misc.LazySpawnEggItem;
+import wolfshotz.dml.client.BreathKeybind;
 
 public class ClientEvents
 {
@@ -26,7 +27,7 @@ public class ClientEvents
     public static void setup(FMLClientSetupEvent evt)
     {
         ClientEvents.registerRenders();
-//        ClientRegistry.registerKeyBinding(new BreathKeybind());
+        ClientRegistry.registerKeyBinding(new BreathKeybind());
     }
 
     public static void registerRenders()
