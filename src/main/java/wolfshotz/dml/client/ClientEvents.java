@@ -13,6 +13,7 @@ import wolfshotz.dml.client.render.EggRenderer;
 import wolfshotz.dml.entities.TameableDragonEntity;
 import wolfshotz.dml.misc.LazySpawnEggItem;
 import wolfshotz.dml.client.BreathKeybind;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
 
 public class ClientEvents
 {
